@@ -17,16 +17,16 @@ type Block struct {
 }
 
 func CalculateBalance(userName string, chainHead *Block) int {
-
+	return 0
 }
 func CalculateHash(inputBlock *Block) string {
-
+	return "123"
 }
 func VerifyTransaction(transaction *BlockData, chainHead *Block) bool {
-
+	return false
 }
 func InsertBlock(blockData []BlockData, chainHead *Block) *Block {
-
+	return chainHead
 }
 func ListBlocks(chainHead *Block) {
 
@@ -35,5 +35,5 @@ func VerifyChain(chainHead *Block) {
 
 }
 func PremineChain(chainHead *Block, numBlocks int) *Block {
-
+	return chainHead
 }
